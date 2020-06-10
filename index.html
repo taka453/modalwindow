@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>モーダルウィンドウをvanila.scriptで作成</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="js-modal" class="modal">
+        <div class="modal_inner">
+            <div id="js-modalClose">モーダルを閉じます×</div>
+            <p>モーダル内の情報が入ります</p>
+        </div>
+    </div>
+    <!-- jsの動きはidを指定し、装飾はclassを指定している。 -->
+    <button id="button" class="modal_button">モーダルが表示されます</button>
+
+    <script src="./main.js"></script>
+</body>
+</html>
